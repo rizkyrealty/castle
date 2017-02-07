@@ -126,12 +126,9 @@ header#masthead {
     margin-left: 0;
 }
 
-.fa {
-  display: inline-block;
-  font: normal normal normal 2em FontAwesome;
-  text-rendering: auto;
- display: flex;
- -webkit-align-items: center;
- padding: 16px 8px 0 0;
-color: #fff;
+.header-info i {
+	color: #fff;
+    display: flex;
+    padding: 16px 8px 0 0;
+    font-size: 2em;
 }
