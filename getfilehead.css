@@ -131,4 +131,5 @@ header#masthead {
     display: flex;
     padding: 16px 8px 0 0;
     font-size: 2em;
+	    font-family: FontAwesome;
 }
