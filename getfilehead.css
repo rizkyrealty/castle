@@ -1,0 +1,127 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row:after, .col:after, .clr:after, .group:after, .flex-direction-nav li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.left {
+    float: left;
+}
+
+#header-wrap {
+    position: relative;
+    background: #29333d;
+	background-color: rgb(41, 51, 61);
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-size: auto auto;
+}
+
+@media only screen and (min-width: 1099px){
+.container {
+    max-width: 1100px;
+}}
+@media (min-width: 320px){
+.container {
+    max-width: 90%;
+    padding: 0;
+}}
+
+.container {
+    margin: 0 auto;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+header#masthead .logo-wrap.span_2, header#masthead .logo-wrap.span_3 {
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    height: 89px;
+    overflow: hidden;
+}
+
+header#masthead {
+    position: relative;
+    z-index: 99999;
+    width: 100%;
+    padding: 0;
+}
+
+@media (min-width: 320px){
+.col {
+    margin-left: 2%;
+}}
+
+.col {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+.span_12 {
+    width: 100%;
+}}
+
+.first {
+    margin-left: 0 !important;
+}
+
+@media (min-width: 768px){
+.span_3 {
+    width: 23.5%;
+}}
+
+.header-info {
+    padding: 16px 0;
+}
+
+@media (min-width: 768px){
+.span_1 {
+    width: 6.5%;
+}}
+
+@media (min-width: 768px){
+	.span_11 {
+		width: 91.5%;
+}}
+
+.header-info-inner {
+    padding: 0 0 0 16px;
+}
+
+.marB0{
+    margin-bottom: 0 !important;
+}
+
+.muted{
+	color: #878c92;
+}
+
+.clear, .aq-block-aq_clear_block {
+    clear: both !important;
+}
+
+.show-hide {
+    display: none !important;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
