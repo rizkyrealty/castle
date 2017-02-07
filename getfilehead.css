@@ -125,14 +125,12 @@ header#masthead {
 .col:first-child {
     margin-left: 0;
 }
-
 .header-info i {
     display: flex;
     -webkit-align-items: center;
     padding: 16px 8px 0 0;
     font-size: 2em;
 }
-1485818922index.css:102
 .header-info i, .header-info h5 {
     color: #fff;
 }
